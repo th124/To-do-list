@@ -113,28 +113,3 @@ ul li span:hover
     background-color: #ff091dd9;
     color: #fff;
 } 
-
-/* this is responsive code */
-@media (min-width: 768px) {
-    body {
-      font-size: 18px;
-    }
-  }
-@media (min-width: 992px) {
-    body {
-      font-size: 20px;
-    }
-  }
-@media (max-width: 600px) {
-  .row {
-    flex-direction: column;
-  }
-
-  #input-box, button {
-    width: 50%;
-  }
-
-  button {
-    padding: 10px 15px;
-  }
-}
